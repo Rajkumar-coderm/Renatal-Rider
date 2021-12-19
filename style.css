@@ -1,0 +1,738 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.call-us-section{
+    margin: 0 2rem;
+    height: 3rem;
+    background-color: rgba(255, 166, 0, 0.24);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0 0 1rem 1rem;
+}
+
+body{
+    font-family: 'Roboto';
+}
+
+.call-us{
+    margin-top: -5rem;
+    text-align: end;
+    color: turquoise;
+}
+
+.containt-time{
+    margin-top: -5rem;
+    color: turquoise;
+}
+
+.containt{
+    display: flex;
+    gap: 1rem;
+}
+
+.containt p{
+    font-size: 1rem;
+    font-weight: 200 !important;
+}
+
+
+.media img{
+    width: 1.2rem;
+    margin-right: 1rem;
+}
+
+/* !main nav bar */
+
+.main-rider-nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 15rem;
+    padding-bottom: 30rem;
+}
+
+.first-icon-head img{
+    width: 11rem;
+    height: 2rem;
+}
+
+.download{
+    border: none;
+    padding: 1rem 1.8rem;
+    border-radius: 0.4rem;
+    background-color: red;
+    color: white;
+    font-size: 0.9rem;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.download:hover{
+    background-color: #000;
+}
+
+.button-all button{
+    border: none;
+    padding: 0.7rem 1.3rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    background-color: white;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.button-all button:first-child{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.button-all button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+/* !why to rent */
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.rental-section{
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    padding: 4rem 0 5rem 0;
+    /* background-color: yellow; */
+    align-items: center;
+}
+
+.second-containt{
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 2rem;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.bikes-and-icon{
+    background-color: rgb(214, 74, 74);
+    padding: 1.6rem;
+    border-radius: 50%;
+}
+
+.contsin-bikes-rental{
+    text-align: end;
+}
+
+.contsin-bikes-rental p{
+    font-size: 1rem;
+    line-height: 1.8rem;
+    color: rgb(44, 44, 44);
+}
+
+.heading-rent-bike{
+    font-size: 1.3rem !important;
+    padding-bottom: 1rem;
+    width: 600 !important;
+    color: black !important;
+    font-weight: 700;
+}
+
+
+/* !section doottt */
+
+.dottdott{
+    width: 3.6rem;
+    margin: 0 0 0 58rem;
+    align-items: center;
+    padding-bottom: 8rem;
+}
+
+
+/* !section bikes */
+
+.bike{
+    font-size: 2.6rem;
+    text-align: center;
+}
+
+.bike-main-all{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    margin:0 20rem;
+    align-items: center;
+    padding-top: 5rem;
+    row-gap: 5rem;
+    column-gap: 2rem;
+}
+
+.bike-cards{
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    /* background-color: brown; */
+}
+
+.bike-cards img{
+    width: 15rem;
+}
+
+.name-bike{
+    font-size: 1.3rem;
+    padding: 1.5rem 0;
+    font-weight: 700;
+}
+
+.book-hours{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* font-size: 1.3rem; */
+    padding-bottom: 1.2rem;
+    border-bottom: 1px solid gray;
+}
+
+.book-hours p{
+    font-size: 1.2rem;
+    color: gray;
+}
+
+.hours-price{
+    display: flex;
+    gap: 2rem;
+}
+
+.hours-price strong{
+    font-size: 1.1rem;
+}
+
+.min-book{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 0;
+    gap: 1rem;
+    border-bottom: 1px solid gray;
+}
+
+.min-book p{
+    font-size: 1.2rem;
+    color: gray;
+}
+
+.book-now{
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    width: 7rem;
+    height: 2.5rem;
+    text-align: center;
+    background-color: rgb(245, 84, 84);
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+
+.book-now:hover{
+    background-color: black;
+    color: white;
+}
+
+.book-now p{
+    font-size: 1rem;
+    padding-left: 0.9rem;
+    color: white;
+}
+
+.btn-icon{
+    width: 1rem;
+    height: 1rem;
+    color: white;
+    margin-left: -1rem;
+    /* background-color: white !important; */
+}
+
+.link-view{
+    text-align: center;
+    padding: 4rem 0;
+    text-decoration: underline;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.link-view:hover{
+    color: red;
+}
+
+
+
+
+/* !section advetizement */
+
+.includ-bike-rental{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16rem;
+    background-color: rgba(250, 128, 114, 0.11);
+    align-items: center;
+    margin: 0 2rem;
+    height: 8rem;
+    border-radius: 1rem;
+}
+
+.including{
+    width: 15rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.all-renatl p{
+    padding-top: 0.6rem;
+    font-size: 1rem;
+    color: red;
+}
+
+
+.icon-sefty img{
+    width: 2.5rem;
+}
+
+.all-renatl{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.rental-icon{
+    margin-top: 0.9rem;
+    color: red;
+}
+
+
+/* !resolve your bike 10 % */
+
+
+.main-online-reserve{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(23, 235, 235, 0.178);
+    margin: 2rem 2rem;
+    border-radius: 0.5rem;
+    padding: 2rem;
+}
+
+.third-location{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.location-rental{
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.location-rental{
+    width: 23rem;
+    font-size: 1rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid gray;
+}
+
+.address-froof{
+    padding-top: 2rem;
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+    color: gray;
+}
+
+.map:hover{
+    text-decoration: underline;
+    color: #000;
+    cursor: pointer;
+}
+
+.city-name{
+    font-size: 1.2rem;
+    padding-bottom: 0.6rem;
+    color: #000;
+}
+
+
+.location-rental img{
+    width: 3rem;
+}
+
+.location-cards-all{
+    display: grid;  
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 2rem;
+    row-gap: 2rem;
+    padding-left: 1rem;
+}
+
+.persentege{
+    font-size: 5rem;
+    color: red;
+}
+
+.first-10-book{
+    width: 25rem;
+    align-items: center;
+    text-align: center;
+}
+
+.sub-hed{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.booking-now{
+    border: none;
+    padding: 1rem 2rem;
+    margin-top: 3rem;
+    background-color: rgb(243, 76, 76);
+    border-radius: 0.3rem;
+    color: white;
+    cursor: pointer;
+}
+
+
+.booking-now:hover{
+    background-color: #000;
+    color: white;
+}
+
+.cenrter{
+    background-color: rgb(214, 74, 74);
+    border-radius: 50%;
+}
+
+.cenrter img{
+    padding: 6rem 5rem;
+}
+
+
+/* !bike rider tiger */
+
+.tiger-main-all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+    padding-top: 7rem;
+    margin: 0 2rem;
+    padding-bottom: 2rem;
+    background-image: url(./img/solid.jpg);
+    border-radius: 1rem;
+}
+
+.bike-in-tiger{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;    
+    text-align: center;
+    gap: 2rem;
+}
+
+.containt-tiger{
+    width: 17rem;
+}
+
+
+
+.containt-tiger h2{
+    font-size: 2.5rem;
+    /* text-align: center; */
+}
+
+.use-taxi{
+    padding-bottom: 2rem;
+}
+
+.para-cob{
+    padding-top: 2rem;
+    font-size: 1.2rem;
+    border-top: 1px solid gray;
+    line-height: 1.7rem;
+    /* text-align: center; */
+    z-index: 9999;
+}
+
+.tiger-img{
+    background-color: rgba(23, 235, 235, 0.13);
+    padding: 5rem 4rem 1.4rem 4.7rem;
+    border-radius: 6rem;
+    margin-left: -2rem;
+    /* z-index: -999; */
+    margin-top: -5rem;
+}
+
+.bike-card img{
+    width: 11rem;
+}
+
+.down{
+    margin-top: 7rem;
+}
+
+
+/* !girl rider */
+
+.girl-ride-main{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.girl-containt{
+    padding-top: 16rem;
+}
+
+.containt-gir{
+    padding-top: 22rem;
+}
+
+.girl-ride img{
+    width: 27rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+}
+
+.girl-ride{
+    /* text-align: center; */
+    width: 30rem;
+    border-left: 2px dotted gray;
+    padding: 0 2rem;
+}
+
+.food{
+    width: 32rem;
+    border-right: 2px dotted gray;
+    border-left: 2px dotted gray;
+    padding: 0 2rem;
+}
+.food img{
+    width: 27rem;
+    margin-top: 20rem;
+    text-align: center;
+    border-radius: 1rem;
+    margin-bottom: 5rem;
+}
+
+.girl-containt h2{
+    font-size: 1.7rem;
+    padding-bottom: 2rem;
+}
+
+.girl-containt p{
+    font-size: 1.2rem;
+    color: gray;
+}
+
+
+.music img{
+    /* padding-top: 2rem; */
+    width: 9rem;
+    margin-left: 8rem;
+    /* background-color: rgba(23, 235, 235, 0.13); */
+}
+
+
+.music-lover{
+    width: 23rem;
+    /* background: #000; */
+    height: 31rem;
+    background-color: rgba(23, 235, 235, 0.13);
+    border-radius: 6rem;
+    padding-top: 2rem;
+    margin-top: 2rem;
+}
+
+.conatint-music h2{
+    text-align: center;
+    font-size: 2.9rem;
+}
+
+.conatint-music p{
+    text-align: center;
+    font-size: 1.2rem;
+    color: grey;
+}
+
+.to-do{
+    padding-bottom: 2rem;
+}
+
+
+
+
+/* !Video section */
+
+.video-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 32rem;
+    margin: 0 2rem;
+    border-radius: 1rem;
+    background-image: linear-gradient(rgba(22, 21, 21, 0.137), rgba(0, 0, 0, 0.233)),url(./img/netural.jpg);
+    height: 30rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover ;
+}
+
+.play-button p{
+    font-size: 2.2rem;
+    color: white;
+    font-weight: 900;
+}
+
+.play-video{
+    width: 7rem;
+    margin-left: 13rem;
+    color:rgb(245, 84, 84);
+    cursor: pointer;
+}
+
+.powerd-by{
+    text-align: center;
+    padding: 3rem;
+}
+
+.powerd-by img{
+    padding-top: 2.3rem;
+    width: 12rem;
+}
+
+.powerd-by p{
+    font-size: 1rem;
+}
+
+
+
+/* !footer section */
+
+.containt-time-call{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    padding-bottom: 0rem;
+}
+
+.datails-all-about-app{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    column-gap: 8rem;
+    margin-top: -3rem;
+}
+
+.datails-all-about-app ul,li{
+    list-style: none;
+}
+
+.google-play{
+    width: 11rem;
+}
+
+.list-heading{
+    font-size: 1.4rem;
+    width: bold;
+    padding-bottom: 2rem;
+    color: white;
+}
+
+.feture-btn{
+    border: none;
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+    background-color: rgb(214, 74, 74);
+    color: white;
+    border-radius: 0.4rem;
+}
+
+.datails-all-about-app li{
+    font-size: 0.9rem;
+    padding: 0.2rem;
+    color: grey;
+}
+
+.footer-imags{
+    display: flex;
+    justify-content: center;
+    gap: 25rem;
+    border-bottom: 1px solid gray;
+    /* width: 90rem; */
+    /* margin-left: 10rem; */
+}
+
+.footer-1{
+    width: 6rem;
+    margin-top: 2rem;
+}
+
+.footer-2{
+    width: 3rem;
+}
+
+.footer-3{
+    width: 8rem;
+}
+
+
+.medial-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem 0;
+    font-size: 0.9rem;
+    color: gray;
+}
+
+.media-icons-and-int{
+    width: 1.7rem;
+    height: 1.7rem;
+    margin-right: 1rem;
+    color: white;
+    cursor: pointer;
+    padding: 0.5rem;
+    background-color: rgba(128, 128, 128, 0.267);
+    border-radius: 0.9rem;
+}
+
+.media-icons-and-int:hover{
+    color: red;
+}
+
+.uparrow{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 10rem;
+    cursor: pointer;
+}
+
+.uparrow img{
+    width: 1.2rem;
+    margin-top: -0.1rem;
+}
+
+.footer-main-section{
+    background-color: #000;
+    margin: 0 2rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+}
